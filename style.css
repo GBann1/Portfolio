@@ -1,0 +1,79 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0px auto;
+}
+    .introPage {
+        background-color: lightblue;
+        font-size: 28pt;
+        color: black;
+        display: flex;
+        min-height: 500px;
+        align-items: center;
+    }
+        .introPgName {
+            flex: 2;
+            text-align: center;
+        }
+        .introPgPicture {
+            flex: 1;
+            padding: 15%;
+            
+        }
+            .introPgPicture img {
+                width: 350px;
+                border-radius: 50%;
+            }
+
+    .introSnippet{
+        display: flex;
+        background-color: lightgray;
+        padding: 15px;
+    }
+        .snippetText {
+            flex: 2;
+            padding-right: 35px;
+        }
+        .snippetGif {
+            flex: 1;
+        }
+
+    .softwareLanguages {
+        display: flex;
+        background-color: azure;
+        padding: 15px;
+    }
+        .panelIcons {
+            background-color: whitesmoke;
+            flex: 1;
+        }
+        .languagesnippets {
+            flex: 1;
+        }
+
+
+img {
+    width: 200px;
+}
+#avatarImg{
+    width: 60px;
+    border-radius: 25%;
+}
+
+.flyToTop{
+    padding-right: 30px;
+    position: fixed;
+    bottom: 15px;
+    
+}
+#flyToTop{
+    width: 30px;
+    align-self: right;
+
+}
