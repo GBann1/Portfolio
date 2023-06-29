@@ -8,32 +8,32 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="container">
+    <div class="container-fluid  border" id="topOfPageLnk">
         <div class="introPage">
             <div class="introPgName">
-                <h1>Gordon Bannon</h1>
-                <p>A Full-Stack Developer</p>
+                <h1 class="fw-bold fs-1">Gordon Bannon</h1>
+                <p class="fst-italic">A Full-Stack Developer</p>
             </div>
             <div class="introPgPicture">
-                <img src="./images/profilePic.jpeg" alt="profile picture">
+                <img src="./images/asciicolorless.png" alt="profile picture">
             </div>
         </div>
         <!-- sticky top -->
-        <div class="navbar sticky-top bg-light">
+        <div class="navbar sticky-top" >
             <div class="avatarPic">
-                <img id="avatarImg" src="./images/avatarPic.jpeg" alt="avatar picture">
+                <img id="avatarImg" src="./images/asciiWhite.png" alt="avatar picture">
             </div>
             <div class="quicklinks">
-                <ul>
-                    <li>About</li>
-                    <li>Skills</li>
-                    <li>Projects</li>
+                <ul class="list-group list-group-horizontal list-unstyled text-center fs-4">
+                    <li><a href="#aboutMeLnk" class=" text-decoration-none">About</a></li>
+                    <li><a href="#skillsLnk" class=" text-decoration-none">Skills</a></li>
+                    <li><a href="#projectLnk" class=" text-decoration-none">Projects</a></li>
                 </ul>
             </div>
         </div>
-        <div class="introSnippet">
-            <div class="snippetText">
-                <h2>Snippet About me</h2>
+        <div class="introSnippet" id="aboutMeLnk">
+            <div class="snippetText" >
+                <h2 >Snippet About me</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero excepturi eaque eligendi quia neque animi magni magnam impedit ut hic, nemo debitis suscipit nulla, aperiam tempora laboriosam quas! Odio, vel?
                 Voluptates tempora nostrum voluptatem ducimus, repellat beatae dolores asperiores optio quisquam facilis aperiam tempore, deleniti eos, maxime magni hic sapiente fugiat! Voluptas necessitatibus soluta eligendi, provident accusantium libero illo minus.
                 Ducimus pariatur amet ex excepturi culpa! Nostrum harum hic iste illum iure commodi nobis? Officia delectus illum assumenda modi harum, officiis eum blanditiis rem velit consequuntur nesciunt aliquid, dolor explicabo.
@@ -45,17 +45,40 @@
             </div>
         </div>
         <!-- Parallax effect, may need additional html -->
-        <div class="location">
-            <img src="./images/placeholder.jpeg" alt="qwerty">
+        <div class="parallaxArea">
+            <!-- rotatediv(8deg)-ish -->
+            <!-- <img src="./images/parallax/electricUnicycle.jpeg" alt="placeholder">
+            <img src="./images/parallax/Airplane.jpeg" alt="placeholder">
+            <img src="./images/parallax/cncRouter.jpeg" alt="placeholder"> -->
+            <img src="./images/parallax/parallaxCropped.png" alt="placeholder">
+            <!-- trim off edges -->
         </div>
-        <div class="softwareLanguages">
-            <div class="panelIcons">
+        <div class="location"  >
+            <p>Currently located in the heart of tornado alley, near Wichita, KS</p>
+            <img src="./images/locationgif.gif" alt="Location of Kansas .gif">
+        </div>
+        <div class="softwareLanguages" id="skillsLnk">
+            <div class="panelIcons d-flex p-2">
                 <!-- some grid feature -->
-                <table>
-                    <tbody>
-                        <col>hi
-                    </tbody>
-                </table>
+                <div>
+
+                    <img src="./images/svgOfLanguages/bootstrap.svg" alt="Bootstrap">
+                    <img src="./images/svgOfLanguages/css3-alt.svg" alt="CSS 3">
+                    <img src="./images/svgOfLanguages/docker.svg" alt="Docker">
+                </div>
+                <div>
+
+                    <img src="./images/svgOfLanguages/html5.svg" alt="HTML 5">
+                    <img src="./images/svgOfLanguages/java.svg" alt="Java">
+                    <img src="./images/svgOfLanguages/node.svg" alt="Node JS">
+                </div>
+                <div>
+
+                    <img src="./images/svgOfLanguages/python.svg" alt="Python 3">
+                    <img src="./images/svgOfLanguages/raspberry-pi.svg" alt="Rasberry Pi">
+                    <img src="./images/svgOfLanguages/square-js.svg" alt="JavaScript">
+                </div>
+
             </div>
             <div class="languagesnippets">
                 <h2>My experience</h2>
@@ -66,10 +89,11 @@
                 Aspernatur beatae dolores porro magnam deserunt fugiat cumque autem necessitatibus reiciendis rerum expedita officia ut natus dignissimos officiis, ducimus laborum quod labore vitae molestias a numquam culpa, exercitationem laudantium! Labore?</p>
             </div>
         </div>
-        <div class="frameworkGroupings">
+        <div class="container horizontal-accordion">
             <div class="frameworkGroup">
                 <!-- Yeah I have no clue... -->
                 <!-- Each framework grouping is an accordian in bootstrap -->
+                <!-- https://mdbootstrap.com/docs/standard/extended/horizontal-accordion/ -->
             </div>
             <div class="frameworkGroup">
                 <!-- Each framework grouping is an accordian in bootstrap -->
@@ -80,16 +104,37 @@
 
             </div>
         </div>
-        <div class="projectPanel">
+        <div class="projectPanel text-center" id="projectLnk">
             <h2>Projects</h2>
-            <!-- Giant panel -->
+            <div class="projectIcons">
+                <!-- some grid feature -->
+                <div>
+
+                    <img src="./images/Projects/Screenshot 2023-06-27 233051.png" alt="Bootstrap">
+                    <img src="./images/Projects/Screenshot 2023-06-27 233104.png" alt="CSS 3">
+                    <img src="./images/Projects/Screenshot 2023-06-27 233116.png" alt="Docker">
+                </div>
+                <div>
+
+                    <img src="./images/Projects/Screenshot 2023-06-27 233139.png" alt="HTML 5">
+                    <img src="./images/svgOfLanguages/java.svg" alt="Java">
+                    <img src="./images/svgOfLanguages/node.svg" alt="Node JS">
+                </div>
+                <div>
+
+                    <img src="./images/svgOfLanguages/python.svg" alt="Python 3">
+                    <img src="./images/svgOfLanguages/raspberry-pi.svg" alt="Rasberry Pi">
+                    <img src="./images/svgOfLanguages/square-js.svg" alt="JavaScript">
+                </div>
+
+            </div>
         </div>
         <div class="flyToTop ">
-            <button><img id="flyToTop" src="./images/Airplane.png" alt="Go To Top"></button>
+            <a href="#topOfPageLnk"><img id="flyToTop" src="./images/Airplane.png" alt="Go To Top"></a>
         </div>
         <div class="linkNavs">
-            <ul>
-                <li>Contact</li>
+            <ul class="list-group list-group-horizontal list-unstyled text-center fs-4">
+                <li><a href="">Contact</a></li>
                 <li>About Me</li>
                 <li>Projects</li>
                 <li>Algorithm</li>
