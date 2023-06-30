@@ -84,13 +84,11 @@
 }
 .parallaxArea img {
         transform: rotate(-6deg);
-
-        /* height: 250px; */
-        width: 1885px;
-        height: 35vh;
-        margin-left: -15px;
-        /* margin-top: -105px;
-        margin-bottom: -125px; */
+        
+        width: 110vw;
+        height: 50vh;
+        margin-left: -2em;
+        margin-top: 4.25em;
     }
 
 /* ========= Location Map ============= */
@@ -104,10 +102,15 @@
     /* font-size: 7em; */
 }
     .location img {
-        margin-top: -20em;
+        margin-top: -em;
+        margin-right: 2.5em;
         border: 1px solid var(--accentSecondColor);
-        border-radius: 30%;
-        width: 18em;
+        border-radius: 35%;
+        height: 11rem;
+        width: 18rem;
+    }
+    .location p{
+        font-size: 1.5em;
     }
 
 /* ==========Software Skills / Experience========= */
