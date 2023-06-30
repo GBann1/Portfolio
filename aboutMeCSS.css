@@ -16,7 +16,7 @@
         margin: 2rem 5rem 3rem 5rem;
     }
     .container p{
-        font-size: 2rem;
+        font-size: 1.5rem;
         margin-bottom: 1.2em;
     }
         .container a{
@@ -33,11 +33,24 @@
         box-shadow: 2px 2px 2px black;
     }
         input {
-            font-size: 2rem;
+            font-size: 1.8rem;
             border-radius: 10px;
+            padding-left: 5px;
         }
             #messageText {
                 width: 100%;
                 margin-top: -1em;
+                padding: 5px;
                 border-radius: 10px;
+                font-size: 1.8rem;
+                overflow: auto;
             }
+        .contactForm button {
+            font-size: 2rem;
+            background-color: var(--accentColor);
+            color: var(--secondaryColor);
+            padding: 2px 5px 2px 5px;
+            border: 1px solid black;
+            border-radius: 5px;
+            margin: 20px auto 10px 15px;
+        }

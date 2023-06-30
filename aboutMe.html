@@ -16,12 +16,13 @@
         <p>My name is Gordon Bannon. I'm an aspiring Full-Stack Developer currently enrolled in <a href="https://www.codingdojo.com/online-coding-bootcamp-full-time">Coding Dojo's fulltime Software Engineering Bootcamp</a>.</p>
         <p>My interest in software development was piqued from one of my other passions, 3D Printing. The whole story starts back when I was still a young kid growing up in the middle of a soy-bean field in Nowheresville Kansas. My dad purchased a CNC plasma cutter; useful for making custom plates and parts for the typical farm machinery, and I learned AutoCAD to draw up the parts for the machine to cut. Experience with that led to </p>
         <div class="contactForm" id="contactForm">
-            <p>Name: <input type="text"></p>
-            <p>Email:  <input type="text"></p>
+            <p>Name: <input type="text" placeholder="John Doe" id="inputName"></p>
+            <p>Email:  <input type="text" placeholder="johndoe@email.com" id="inputEmail"></p>
             <hr>
             <p>Message: </p>
-            <textarea name="message" id="messageText" cols="30" rows="8"></textarea>
-            
+            <textarea name="message" id="messageText" cols="30" rows="5" placeholder="Your message here"></textarea>
+            <button onclick="clearContact()">Clear Fields</button>
+            <button onclick="submitForm()">Submit</button>
         </div>
         
     </div>
@@ -34,10 +35,13 @@
             <li><a href="index.html">Home</a></li>
             <!-- <li><a href="#contactForm">Contact</a></li> -->
             <li><a href="aboutMe.html">About Me</a></li>
-            <li><a href="">Projects</a></li>
-            <li><a href="">Algorithm</a></li>
+            <li><a href="404.html">Projects</a></li>
+            <li><a href="404.html">Algorithm</a></li>
             <li><a href="https://github.com/GBann1" target="_blank">GitHub</a></li>
         </ul>
     </div>
+    <script src="./scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
 </body>
 </html>

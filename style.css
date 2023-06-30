@@ -18,8 +18,7 @@
         font-size: 28pt;
         color: var(--secondaryColor);
         display: flex;
-        height: 100vh + 75px;
-        /* width: 100vw; */
+        height: 110vh;
         align-items: center;
 
     }
@@ -73,6 +72,11 @@
         }
         .snippetGif {
             flex: 1;
+        }
+        .introSnippet img {
+            width: 100%;
+            border-radius: 15px;
+            box-shadow: 2px 2px 2px black;
         }
 /* =========Parallax section====== */
 .parallaxArea{
@@ -153,6 +157,11 @@
         margin: 10px;
         width: 300px;
         height: 300px;
+    }
+    .projectPanel hr {
+        width: 65%;
+        border: 2px solid black;
+        margin: 15px auto;
     }
 img {
     width: 200px;

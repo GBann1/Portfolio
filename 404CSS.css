@@ -1,0 +1,22 @@
+h1 {
+    font-size: 42pt;
+}
+h2 {
+    font-size: 26pt;
+}
+p {
+    font-size: 20pt;
+}
+img {
+    width: 25px;
+}
+.container{
+    width: 600px;
+    margin: 25vh auto auto auto;
+    text-align: center;
+    display: flex;
+
+}
+    .text {
+        margin-left: 30px;
+    }
