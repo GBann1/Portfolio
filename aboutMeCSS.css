@@ -1,0 +1,43 @@
+.container {
+    width: 850px;
+    height: 150vh;
+    margin: 0 auto;
+    padding: 2.5rem;
+    background-color: var(--thirdColor);
+    color: var(--accentSecondColor);
+    border-radius: 25px;
+}
+    .container h1 {
+        text-align: center;
+        font-size: 4rem;
+
+    }
+    .container hr {
+        margin: 2rem 5rem 3rem 5rem;
+    }
+    .container p{
+        font-size: 2rem;
+        margin-bottom: 1.2em;
+    }
+        .container a{
+            color: var(--accentColor);
+            text-decoration: underline;
+        }
+    .contactForm{
+        padding: 1.2em;
+        background-color: rgba(128, 128, 128, 0.518);
+        border: 2px solid black;
+        border-radius: 10px;
+        margin: 0px auto;
+        width: 75%;
+        box-shadow: 2px 2px 2px black;
+    }
+        input {
+            font-size: 2rem;
+            border-radius: 10px;
+        }
+            #messageText {
+                width: 100%;
+                margin-top: -1em;
+                border-radius: 10px;
+            }

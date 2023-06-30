@@ -53,8 +53,9 @@
             padding: 15px 0px 15px 0px;
         }
 
-        .navbar a {
+        a {
             color: var(--secondaryColor);
+            text-decoration: none;
         }
 /* ========== About ME section */
     .introSnippet{
@@ -145,6 +146,7 @@
         padding-top: 25px;
         border-top: 75px solid transparent;
         margin-top: -75px;
+        margin-bottom: 2.5vh;
         /* height: 100vh; */
     }
     .projectIcons img {
