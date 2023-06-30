@@ -107,13 +107,14 @@
     color: var(--secondaryColor);
     /* font-size: 7em; */
 }
-    .location img {
-        margin-top: -em;
+    .location video {
+        /* margin-top: -em; */
         margin-right: 2.5em;
         border: 1px solid var(--accentSecondColor);
         border-radius: 35%;
         height: 11rem;
         width: 18rem;
+        object-fit: fill;
     }
     .location p{
         font-size: 1.5em;
